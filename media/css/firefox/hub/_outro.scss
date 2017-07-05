@@ -19,11 +19,11 @@
     color: #fff;
 
     h2 {
-        @include font-size-level2;
+        @include font-size-level3;
     }
 
     .tagline {
-        @include font-size-level3;
+        @include font-size-level4;
     }
 
     @media #{$mq-desktop} {
@@ -37,7 +37,7 @@
 
 .outro-item-detail {
     @media #{$mq-tablet} {
-        width: 45%;
+        width: 40%;
     }
 }
 
